@@ -17,7 +17,7 @@ module OoyalaHelper
 
   # Generates Ooyala player JS
   def ooyala_js(player_id: default_ooyala_player_id)
-    javascript_include_tag "//player.ooyala.com/v3/#{player_id}"
+    javascript_include_tag "//player.ooyala.com/v4/#{player_id}"
   end
 
   # Renders Ooyala player
